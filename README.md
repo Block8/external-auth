@@ -1,0 +1,1 @@
+Laravel package providing Google and Microsoft Auth for block8/ui.

@@ -1,0 +1,25 @@
+{
+  "name": "block8/external-auth",
+  "description": "Laravel package providing external auth for block8/ui.",
+  "license": "BSD-2-Clause",
+
+  "require": {
+    "php": ">=7.1.0",
+    "laravel/socialite": "^3.0",
+    "socialiteproviders/microsoft-graph": "^2.0"
+  },
+
+  "autoload": {
+    "psr-4": {
+      "Block8\\ExternalAuth\\": "src/"
+    }
+  },
+
+  "extra": {
+    "laravel": {
+      "providers": [
+        "Block8\\ExternalAuth\\ExternalAuthServiceProvider"
+      ]
+    }
+  }
+}
